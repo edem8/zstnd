@@ -1,5 +1,6 @@
 import type { cartProduct } from "@/types/cartProduct";
 import type { Product } from "@/types/products";
+import type { Store } from "@/types/store";
 import type { StateCreator } from "zustand";
 
 type cartState = {
@@ -26,7 +27,7 @@ const initialState: cartState = {
 };
 
 export const createCartSlice: StateCreator<
-  cartSlice,
+  Store,
   [["zustand/immer", never]],
   [],
   cartSlice
