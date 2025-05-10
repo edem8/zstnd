@@ -31,7 +31,7 @@ export default function User() {
     <Popover>
       <PopoverTrigger asChild>
         <Button size="icon" variant="secondary">
-          <User2 />
+          <User2 color="black" />
         </Button>
       </PopoverTrigger>
 

@@ -38,7 +38,7 @@ export default function Cart() {
             Cart
           </p>
           <Button onClick={reset} variant="destructive" size="icon">
-            <CircleX />
+            <CircleX color="black" />
           </Button>
         </div>
 
@@ -61,7 +61,7 @@ export default function Cart() {
                     size="icon"
                     variant="destructive"
                   >
-                    <Trash2 className="w-4 h-4" />
+                    <Trash2 className="w-4 h-4" color="black" />
                   </Button>
                 </CardHeader>
 
