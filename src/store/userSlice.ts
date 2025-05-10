@@ -1,5 +1,6 @@
 // creating slices for different parts of the application is more efficient and maintanable
 
+import type { Store } from "@/types/store";
 import type { StateCreator } from "zustand";
 
 type userState = {
@@ -17,7 +18,7 @@ type userAction = {
 export type userSlice = userState & userAction;
 
 export const createUserSlice: StateCreator<
-  userSlice,
+  Store,
   [["zustand/immer", never]],
   [],
   userSlice
