@@ -27,7 +27,7 @@ export default function Cart() {
     <Popover>
       <PopoverTrigger asChild>
         <Button size="icon" variant="secondary">
-          <ShoppingCart />
+          <ShoppingCart color="black" />
         </Button>
       </PopoverTrigger>
 
